@@ -16,7 +16,7 @@ extension UserDefaults {
             if object(forKey: Self.diskSizeKey) != nil {
                 return integer(forKey: Self.diskSizeKey)
             }
-            return 60 // default value
+            return 200 // default value
         }
         set {
             set(newValue, forKey: Self.diskSizeKey)

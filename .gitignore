@@ -1,3 +1,4 @@
 virtualOS.xcodeproj/xcuserdata
 *.xcuserdatad
 .DS_Store
+Build
